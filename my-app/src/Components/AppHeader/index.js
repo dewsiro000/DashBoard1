@@ -2,7 +2,7 @@ import React from 'react'
 import { BellFilled, MailOutlined } from "@ant-design/icons";
 import { Badge, Drawer, Image, List, Space, Typography } from "antd";
 
-const AppHeader = () => {
+function AppHeader() {
     return (
         <div className='AppHeader'>
             <Image

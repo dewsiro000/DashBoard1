@@ -8,7 +8,7 @@ import { Menu } from "antd";
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
-const SideMenu = () => {
+function SideMenu() {
 
     const location = useLocation();
     const [selectedKeys, setSelectedKeys] = useState("/");

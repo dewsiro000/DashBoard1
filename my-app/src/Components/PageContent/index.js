@@ -1,9 +1,9 @@
-import React from 'react'
+import AppRoutes from '../AppRoutes'
 
-const PageContent = () => {
+function PageContent() {
     return (
         <div className='PageContent'>
-            PageContent
+            <AppRoutes />
         </div>
     )
 }
